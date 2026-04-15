@@ -1,0 +1,17 @@
+# RustDesk server data directory (contains PRIVATE KEY - never commit!)
+data/
+
+# Environment files with server-specific configuration
+.env
+.env.local
+.env.*.local
+
+# Private keys (if ever extracted from data/)
+*.pem
+*.key
+id_ed25519
+
+# Backup files
+*.backup
+*.bak
+*.tar.gz
